@@ -105,7 +105,6 @@ projectname/
 
 2. **Access the API**:
     - **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-    - **OpenAPI JSON**: [http://127.0.0.1:8000/openapi.json](http://127.0.0.1:8000/openapi.json)
 
 3. **Endpoints**:
     - **GET `/`**: Returns a message indicating that the API is running.
@@ -116,26 +115,7 @@ projectname/
 
 The application uses APScheduler to run a background job every 24 hours. This job processes data, generates predictions, and sends an email with the results.
 
-## Development
 
-1. **Run tests** (if applicable):
-    ```bash
-    pytest
-    ```
-
-2. **Format code**:
-    - **Black**:
-      ```bash
-      black .
-      ```
-    - **isort**:
-      ```bash
-      isort .
-      ```
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
